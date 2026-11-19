@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alejandro Valdivia">
+  <meta name="description" content="Página de contacto y cuestionario de Alejandro Valdivia.">
+  <meta name="keywords" content="contacto, formulario, cuestionario, Alejandro Valdivia">
+  
+  <title>Contacto | Alejandro Valdivia</title>
+
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="shortcut icon" href="imagenes/logoVABL.jpg" type="image/x-icon">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Alejandro Valdivia</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuNavegacion">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link text-light" href="index.html">Mi biografía</a>
+          <a class="nav-link text-light" href="index.html#proyectos">Pasatiempos</a>
+          <a class="nav-link text-white active" href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ENCABEZADO SOBRE MÍ -->
+  <section id="sobre-mi" class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center mb-3 mb-md-0">
+        <img src="imagenes/Image (1).jpg" alt="Foto Alejandro" class="img-fluid rounded-circle border border-3 border-dark" style="max-width: 180px;">
+      </div>
+
+      <div class="col-md-8 text-center text-md-start">
+        <h1>Soy Alejandro Valdivia</h1>
+        <p class="lead">
+          Estudiante de Ingeniería. Me la paso programando, resolviendo en la chamba y aprendiendo cosas nuevas de desarrollo de software con el mejor prof, Alejandro.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="container">
+
+  <!-- SECCIÓN CONTACTO: FORMULARIO Y MAPA -->
+  <section id="contacto" class="container py-4 mb-5">
+    <h2 class="text-center mb-4">Medios de Contacto</h2>
+
+    <div class="row g-4">
+      
+      <!-- FORMULARIO SIMPLE SIN LABELS NI TEXTAREA -->
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm mb-4">
+          <h4 class="mb-3">Envíame un mensaje</h4>
+          <form>
+            <div class="mb-3">
+              <p class="fw-bold mb-1">Nombre completo:</p>
+              <input type="text" class="form-control" placeholder="Escribe tu nombre aquí">
+            </div>
+            
+            <div class="mb-3">
+              <p class="fw-bold mb-1">Correo electrónico:</p>
+              <input type="email" class="form-control" placeholder="tu@correo.com">
+            </div>
+
+            <div class="mb-3">
+              <p class="fw-bold mb-1">Mensaje:</p>
+              <input type="text" class="form-control" placeholder="Escribe tu mensaje">
+            </div>
+
+            <button type="button" class="btn btn-primary bg-black w-100 fw-bold">Enviar Mensaje</button>
+          </form>
+        </div>
+
+        <div class="list-group shadow-sm">
+          <div class="list-group-item p-3">
+            <h6 class="fw-bold mb-1"> Correo Electrónico:</h6>
+            <p class="mb-0 text-muted">lvv87gg@gmail.com</p>
+          </div>
+
+          <div class="list-group-item p-3">
+            <h6 class="fw-bold mb-1"> WhatsApp / Teléfono:</h6>
+            <p class="mb-0 text-muted">+52 (477) 385 8620</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 d-flex flex-column">
+        <h4 class="mb-3 text-center text-md-start">Ubicación</h4>
+        <iframe class="w-100 rounded border shadow-sm flex-grow-1" style="min-height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.1114590538928!2d-101.70877572415634!3d21.147962183672565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf5887691edd%3A0x16c90ed14f9d3ebd!2sFLAMINGOS%20NIGHT%20CLUB!5e0!3m2!1ses-419!2smx!4v1792084460900!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-black text-white text-center py-3">
+    <p class="m-0">Página creada por Alejandro Valdivia &copy; 2026</p>
+  </footer>
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
